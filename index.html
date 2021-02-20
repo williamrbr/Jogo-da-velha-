@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da velha</title>
+  <style>
+    #mostrador{
+      margin: auto;
+      margin-top: 40px;
+      
+      width: 252px;
+      height: 80px;
+
+    }
+    .espaco{
+    width: 80px;
+    height: 60px;
+    border:2px solid #001230;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .tabuleiro{
+      width: 252px;
+      height: 252px;
+      margin: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="mostrador">
+    <p style="float: left; margin-right: 10px;">vez do jogador:</p>
+    <img src="imagens/x.png" boder="0" height="50">
+  </div>
+  <div  class="tabuleiro">
+    <div id="a1" class="espaco" jogada=""></div>
+    <div id="a2" class="espaco" jogada=""></div>
+    <div id="a3" class="espaco" jogada=""></div>
+
+    <div id="b1" class="espaco" jogada=""></div>
+    <div id="b2" class="espaco" jogada=""></div>
+    <div id="b3" class="espaco" jogada=""></div>
+
+    <div id="c1" class="espaco" jogada=""></div>
+    <div id="c2" class="espaco" jogada=""></div>
+    <div id="c3" class="espaco" jogada=""></div>
+
+  </div>
+
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
