@@ -6,7 +6,7 @@ var gameOver = false;
 
 atualizaMostrador();
 inicializarEspacos();
-
+console.log("ok")
 
 function atualizaMostrador(){
   if (gameOver)  {return;}
